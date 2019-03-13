@@ -12,6 +12,14 @@
 		A7880FC0223946E40095D54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7880FBE223946E40095D54A /* Main.storyboard */; };
 		A7880FC2223946E60095D54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7880FC1223946E60095D54A /* Assets.xcassets */; };
 		A7880FC5223946E60095D54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7880FC3223946E60095D54A /* LaunchScreen.storyboard */; };
+		A7880FCD22394A770095D54A /* FishingTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7880FCC22394A770095D54A /* FishingTrip.swift */; };
+		A7880FCF22394AD20095D54A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7880FCE22394AD20095D54A /* NetworkManager.swift */; };
+		A7880FD122394D600095D54A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7880FD022394D600095D54A /* NetworkError.swift */; };
+		A7880FD322394E5A0095D54A /* FishingTripController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7880FD222394E5A0095D54A /* FishingTripController.swift */; };
+		A7880FD5223950A30095D54A /* FishingTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7880FD4223950A30095D54A /* FishingTypeCell.swift */; };
+		A7880FD7223951FF0095D54A /* FishFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7880FD6223951FF0095D54A /* FishFilter.swift */; };
+		A7880FD92239701F0095D54A /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7880FD82239701F0095D54A /* MonthViewController.swift */; };
+		A7880FDB223982D30095D54A /* EmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7880FDA223982D30095D54A /* EmailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		A7880FC1223946E60095D54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7880FC4223946E60095D54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7880FC6223946E60095D54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7880FCC22394A770095D54A /* FishingTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingTrip.swift; sourceTree = "<group>"; };
+		A7880FCE22394AD20095D54A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A7880FD022394D600095D54A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		A7880FD222394E5A0095D54A /* FishingTripController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingTripController.swift; sourceTree = "<group>"; };
+		A7880FD4223950A30095D54A /* FishingTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingTypeCell.swift; sourceTree = "<group>"; };
+		A7880FD6223951FF0095D54A /* FishFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishFilter.swift; sourceTree = "<group>"; };
+		A7880FD82239701F0095D54A /* MonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		A7880FDA223982D30095D54A /* EmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,14 @@
 			children = (
 				A7880FBA223946E40095D54A /* AppDelegate.swift */,
 				A7880FBC223946E40095D54A /* ViewController.swift */,
+				A7880FD222394E5A0095D54A /* FishingTripController.swift */,
+				A7880FD82239701F0095D54A /* MonthViewController.swift */,
+				A7880FDA223982D30095D54A /* EmailController.swift */,
+				A7880FD4223950A30095D54A /* FishingTypeCell.swift */,
+				A7880FCC22394A770095D54A /* FishingTrip.swift */,
+				A7880FD6223951FF0095D54A /* FishFilter.swift */,
+				A7880FCE22394AD20095D54A /* NetworkManager.swift */,
+				A7880FD022394D600095D54A /* NetworkError.swift */,
 				A7880FBE223946E40095D54A /* Main.storyboard */,
 				A7880FC1223946E60095D54A /* Assets.xcassets */,
 				A7880FC3223946E60095D54A /* LaunchScreen.storyboard */,
@@ -135,8 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7880FDB223982D30095D54A /* EmailController.swift in Sources */,
+				A7880FCF22394AD20095D54A /* NetworkManager.swift in Sources */,
 				A7880FBD223946E40095D54A /* ViewController.swift in Sources */,
 				A7880FBB223946E40095D54A /* AppDelegate.swift in Sources */,
+				A7880FD7223951FF0095D54A /* FishFilter.swift in Sources */,
+				A7880FCD22394A770095D54A /* FishingTrip.swift in Sources */,
+				A7880FD122394D600095D54A /* NetworkError.swift in Sources */,
+				A7880FD5223950A30095D54A /* FishingTypeCell.swift in Sources */,
+				A7880FD322394E5A0095D54A /* FishingTripController.swift in Sources */,
+				A7880FD92239701F0095D54A /* MonthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +314,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 76WLG3G338;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LiquidFishInterview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.votaw.LiquidFishInterview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +334,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 76WLG3G338;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LiquidFishInterview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.votaw.LiquidFishInterview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
